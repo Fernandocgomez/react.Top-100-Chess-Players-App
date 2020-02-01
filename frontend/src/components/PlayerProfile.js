@@ -22,15 +22,15 @@ class PlayerProfile extends React.Component {
 
                     <div className='profile-text-box'>
                         <div className='profile-text'>
-                            <p className='profile-p'>Name: <span className='profile-p-span'></span></p>
-                            <p className='profile-p'>World Rank: <span className='profile-p-span'></span></p>
-                            <p className='profile-p'>Country: <span className='profile-p-span'></span></p>
+                            <p className='profile-p'>Name: <span className='profile-p-span'>Fernando</span></p>
+                            <p className='profile-p'>World Rank: <span className='profile-p-span'>1</span></p>
+                            <p className='profile-p'>Country: <span className='profile-p-span'>Mexico</span></p>
                         </div>
 
                         <div className='profile-text'>
-                            <p className='profile-p'>Birthday: <span className='profile-p-span'></span></p>
-                            <p className='profile-p'>Sex: <span className='profile-p-span'></span></p>
-                            <p className='profile-p'>Title: <span className='profile-p-span'></span></p>
+                            <p className='profile-p'>Birthday: <span className='profile-p-span'>10/02/1993</span></p>
+                            <p className='profile-p'>Sex: <span className='profile-p-span'>Male</span></p>
+                            <p className='profile-p'>Title: <span className='profile-p-span'>Gran Master</span></p>
                         </div>
                     </div>
 
@@ -90,7 +90,7 @@ class PlayerProfile extends React.Component {
 
                     <div className='profile-form-box'>
                         <input className='profile-input'></input>
-                        <button className='profile-btn'></button>
+                        <button className='profile-btn'>Comment</button>
                     </div>
 
                 </div>

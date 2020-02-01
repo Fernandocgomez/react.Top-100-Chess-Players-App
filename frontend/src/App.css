@@ -159,12 +159,13 @@
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
-  border: solid rgb(97,97,97) 1px;
+  border: rgba(116, 113, 113, 0.589) solid 1px;
   width: 40rem;
   font-size: 18px;
+  padding-left: 5px;
 }
 
-.players-input:focus, .players-btn:focus {
+.players-input:focus, .players-btn:focus, .profile-btn, .profile-input {
   outline: none;
 }
 
@@ -175,8 +176,8 @@
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 10px;
-  background-color: rgb(69,157,84);
-  color: white;
+  /* background-color: rgb(69,157,84); */
+  color: #616161;
   font-size: 16px;
   font-weight: 600;
   width: 10rem;
@@ -282,3 +283,35 @@
 
 }
 
+.profile-form-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.profile-input {
+  width: 58rem;
+  padding-bottom: 60px;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: rgba(116, 113, 113, 0.589) solid 1px;
+}
+
+.profile-btn {
+  font-size: 20px;
+  border-radius: 20px;
+  height: 40px;
+}
+
+.profile-p {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.profile-p-span {
+  font-weight: 500;
+  font-size: 16px;
+}
