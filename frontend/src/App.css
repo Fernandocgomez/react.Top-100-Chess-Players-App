@@ -36,3 +36,249 @@
     transform: rotate(360deg);
   }
 }
+
+/* nav-bar */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid rgba(226, 226, 226, 1) 1px;
+  box-shadow: 0 4px 2px -2px rgba(99, 99, 99, 0.15);
+  padding: 15px 15px;
+  
+}
+
+.logo {
+  display: flex;
+  margin: 0px 15px 0px 15px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.logo-text {
+  display: flex;
+  margin: 0px 10px 0px 10px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #616161;
+  margin-top: 10px;
+}
+
+.themes-link {
+  display: flex;  
+  margin: 0px 20px 0px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #616161;
+}
+
+.about-link {
+  display: flex;
+  margin: 0px 20px 0px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #616161;
+}
+
+/* footer */
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.294);
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.footer-copyright {
+  color: rgba(2, 2, 2, 0.72);
+}
+
+/* Players Page */
+
+.players-container{
+  min-height: calc(91vh - 70px);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+
+.players-search-container {
+  display: flex;
+  justify-content: center;
+}
+
+.players-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0px 30px 0px;
+}
+
+.players-card {
+  display: flex;
+  flex-direction: column;
+  border-width: .5px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
+  padding: 30px 20px;
+  border: rgba(116, 113, 113, 0.589) solid .5px;
+}
+
+.players-card:hover {
+  opacity: .85;
+}
+
+.players-img-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.players-img {
+  border-radius: 20px;
+}
+
+.players-search-container {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  justify-content: stretch;
+  margin-top: 30px;
+}
+
+.players-input {
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid rgb(97,97,97) 1px;
+  width: 40rem;
+  font-size: 18px;
+}
+
+.players-input:focus, .players-btn:focus {
+  outline: none;
+}
+
+.players-btn {
+  border-radius: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  background-color: rgb(69,157,84);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  width: 10rem;
+}
+
+/*  profile */
+
+.profile-container {
+  min-height: calc(91vh - 70px);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+
+.profile-box1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: .5px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px 30px;
+  border: rgba(116, 113, 113, 0.589) solid .5px;
+  margin-top: 50px;
+}
+
+.profile-img-box {
+  display: flex;
+  border-radius: 20px;
+}
+.profile-img {
+  display: flex;
+  flex-grow: 1;
+  border-radius: 20px;
+
+}
+
+.profile-text-box {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  
+}
+
+.profile-text {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.profile-box2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: .5px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px 30px;
+  border: rgba(116, 113, 113, 0.589) solid .5px;
+  margin-top: 50px;
+}
+
+.profile-box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px 40px;
+  border: rgba(116, 113, 113, 0.589) solid .5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.profile-h2-box {
+  display: flex;
+}
+
+.profile-form-box {
+  display: flex;
+}
+
+.profile-p-username {
+  font-weight: 700;
+}
+
+.profile-p-content {
+  margin-left: 20px;
+}
+
+.overflow {
+  padding: 15px;
+  height: 200px;
+  overflow: scroll;
+  border: rgba(116, 113, 113, 0.589) solid 1px;
+  border-radius: 8px;
+  padding: 0px 20px 50px 20px;
+
+}
+

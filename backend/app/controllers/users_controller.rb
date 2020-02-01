@@ -2,10 +2,10 @@ class UsersController < ApplicationController
 
     skip_before_action :authenticated, only: [:index, :create]
 
-    def index 
-        users = User.all
-        render json: users, except: [:created_at, :updated_at], include: :comments, except: [:created_at, :updated_at]
-    end
+    # def index 
+    #     users = User.all
+    #     render json: users, except: [:created_at, :updated_at], include: :comments, except: [:created_at, :updated_at]
+    # end
 
     # def show 
     #     user = User.find(session[:user_id])
@@ -26,6 +26,11 @@ class UsersController < ApplicationController
             render json: {error: "Failed to create user"}, status: :no_acceptable
         end
     end
+    
+    def delete
+        
+    end
+
 
     private
 
