@@ -1,0 +1,2 @@
+class Chessplayer < ApplicationRecord
+end
