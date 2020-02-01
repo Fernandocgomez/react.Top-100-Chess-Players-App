@@ -9,6 +9,7 @@ import SignUp from './SignUp';
 import Login from './Login';
 import Footer from './Footer';
 import NavBar from './NavBar';
+import PlayerProfile from './PlayerProfile';
 
 
 
@@ -41,6 +42,11 @@ class MainContainer extends React.Component {
           />
 
           <Route exact path='/login' component={(history) => <Login
+            history={history}  
+          />}
+          />
+
+          <Route exact path='/profile' component={(history) => <PlayerProfile
             history={history}  
           />}
           />
