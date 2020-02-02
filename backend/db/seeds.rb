@@ -5,3 +5,34 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+User.destroy_all 
+Chessplayer.destroy_all 
+Comment.destroy_all
+Statistic.destroy_all 
+
+
+require 'csv'
+
+CSV.foreach(Rails.root.join('lib/tasks/db.csv'), :encoding => 'windows-1251:utf-8', headers: true) do |row|
+  Chessplayer.create! do |mode|
+  mode.name = row[0]
+  mode.worldrank = row[1]
+  mode.country = row[2]
+  mode.birthyear = row[3]
+  mode.sex = row[4]
+  mode.title = row[5]
+  mode.img = row[6]
+  end
+end
+
+CSV.foreach(Rails.root.join('lib/tasks/stats.csv'), :encoding => 'windows-1251:utf-8', headers: true) do |row|
+  Statistic.create! do |mode|
+  mode.chessplayer_id = row[0]
+  mode.period = row[1]
+  mode.position = row[2]
+  end
+end
+
+puts 'seeded my dude'

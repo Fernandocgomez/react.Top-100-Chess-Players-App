@@ -1,0 +1,101 @@
+name,worldrank,country,birthyear,sex,title,img
+"Carlsen, Magnus ",1,Norway,1990,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/3b0ddf4e-bd82-11e8-9421-af517c2ebfed.1e700464.160x160o.70a846b1599b.jpeg
+"Caruana, Fabiano ",2,United States of America,1992,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/c66cb17a-c005-11e8-886b-692f3468f8e7.279d6d74.160x160o.b270e626c19e.jpeg
+"Ding, Liren ",4,China,1992,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/00ffadde-d6a8-11e8-bdb9-933b839db343.31293b1e.160x160o.2cfcfcb37554.jpeg
+"Vachier-Lagrave, Maxime ",5,France,1990,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/eb25fede-c007-11e8-b889-f36424f6d552.d8d2e08a.160x160o.4e5244a78e8c.jpeg
+"Grischuk, Alexander ",7,Russia,1983,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/11a5e2b6-c005-11e8-8f74-894171089772.f48390da.160x160o.69cfb7dca9cb.jpeg
+"Aronian, Levon ",8,Armenia,1982,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/4118050c-c004-11e8-bb10-a1a4e591dae7.1cb2c9a8.160x160o.d0079d7ad94e.jpeg
+"Mamedyarov, Shakhriyar ",9,Azerbaijan,1985,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/49070142-c00d-11e8-9efd-03a2cb777504.37e12dda.160x160o.2bd731a16e78.jpeg
+"Giri, Anish ",10,Netherlands,1994,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/93222764-bd80-11e8-b51a-fd14c22a36df.25c80564.160x160o.9b125fdf8092.jpeg
+"Nepomniachtchi, Ian ",11,Russia,1990,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/cf02cd92-c0a0-11e8-b780-451d887b5ef3.22fa5145.160x160o.f7fd615244a2.jpeg
+"Radjabov, Teimour ",12,Azerbaijan,1987,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/15dc583e-9d99-11e9-acb3-2943cca8973d.090601ab.160x160o.be6e59853024.jpeg
+"So, Wesley ",13,United States of America,1993,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/d1da994a-c00b-11e8-ae3d-67e3121970db.0ffa8f0a.160x160o.7ed711a1126c.jpeg
+"Duda, Jan-Krzysztof ",14,Poland,1998,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/ef746204-c008-11e8-9179-bfa729926b5d.8354d7d5.160x160o.e57c3082f0d7.jpeg
+"Dominguez Perez, Leinier ",15,United States of America,1983,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/fb05b676-c0b3-11e8-a50f-dd344423a456.29deceb8.160x160o.341e8e4be786.jpeg
+"Rapport, Richard ",16,Hungary,1996,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/5a58c516-9da7-11e9-99d4-9bc22a7718ac.841fea56.160x160o.a4e3522cbfb7.jpeg
+"Anand, Viswanathan ",17,India,1969,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/3586d30a-bfe9-11e8-ab4c-1fb3088203eb.90d908d0.160x160o.e00ba39cb8dc.jpeg
+"Wang, Hao ",18,China,1989,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/85fbb342-c0a1-11e8-a12d-6f640d0548e8.9c8622b4.160x160o.ae9bd7c902a8.jpeg
+"Karjakin, Sergey ",19,Russia,1990,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/31705c32-c007-11e8-a922-3d1370bbc533.ac536865.160x160o.a76c5b1a9e1b.jpeg
+"Kramnik, Vladimir ",20,Russia,1975,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/e966cdb6-c00d-11e8-ace3-17cdcb76f4ec.529a4bbb.160x160o.cd4556c8e895.jpeg
+"Vitiugov, Nikita ",21,Russia,1987,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/9f018c36-c0ce-11e8-abf2-6dee6b9687ab.6a735b0e.160x160o.c3c0bea8a102.jpeg
+"Yu, Yangyi ",22,China,1994,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/e9640f50-c002-11e8-b93d-e56e1835faa8.2dd4bb8a.160x160o.2b495f811f50.jpeg
+"Topalov, Veselin ",23,Bulgaria,1975,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/5c8147c2-bd7f-11e8-863f-15ded6970bf6.21613c28.160x160o.3f07d98b47ed.jpeg
+"Nakamura, Hikaru ",25,United States of America,1987,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/4e135a04-c0d1-11e8-8001-4d8a57cc5e35.c3e478cd.160x160o.cd3c53fadfbe.jpeg
+"Artemiev, Vladislav ",26,Russia,1998,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/fc77c8fe-c0d2-11e8-9953-69dae18ad41c.1ed0c263.160x160o.5a057fa35adc.jpeg
+"Wojtaszek, Radoslaw ",27,Poland,1987,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/d2ffe7be-9da3-11e9-9f15-9b4452d9b082.6de22490.160x160o.7fea26bdb245.jpeg
+"Wei, Yi ",28,China,1999,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/179a4e1c-c0a2-11e8-a89d-d5b2ce47bc0f.51115246.160x160o.dfadd5fd0234.jpeg
+"Andreikin, Dmitry ",29,Russia,1990,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/5826499c-9da9-11e9-b43a-6f7fb9e910fa.61d6513e.160x160o.73d5325e6e6d.jpeg
+"Harikrishna, Pentala ",30,India,1986,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/7ec489f6-c00a-11e8-a7b5-05b84640c4a5.d4a2965f.160x160o.5ee9026ebe4d.jpeg
+"Svidler, Peter ",31,Russia,1976,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/d46d920c-d6a9-11e8-b7a5-21bd8913c430.d0f45a94.160x160o.b9488fe8d932.jpeg
+"Firouzja, Alireza ",32,Iran,2003,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/ba20201a-9da8-11e9-b336-81ce4c22cfe7.d3012337.160x160o.98d1b853cf16.jpeg
+"Vidit, Santosh Gujrathi ",33,India,1994,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/0fc2823c-9daa-11e9-acbf-8d960a1636cb.61f47f58.160x160o.95a339bd6f28.jpeg
+"Le, Quang Liem ",34,Vietnam,1991,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/666f8eee-c002-11e8-bc70-f9c710b26ec4.43656518.160x160o.7c4f9a418f56.jpeg
+"Xiong, Jeffery ",35,United States of America,2000,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/9a883530-c00e-11e8-884f-7113cd189885.c3c7248c.160x160o.4f92e6012afa.jpeg
+"Navara, David ",36,Czech Republic,1985,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/bb12d7f6-bfff-11e8-8db5-9b0375c39a1b.70d18ad5.160x160o.cca6777d0bee.jpeg
+"Tomashevsky, Evgeny ",37,Russia,1987,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/8657caba-c0d3-11e8-bcdb-85530f3a4056.9b877e1e.160x160o.301f69fcf0d4.jpeg
+"Bu, Xiangzhi ",38,China,1985,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/4210d11c-bffc-11e8-bfd6-61de418e5231.ab85c0db.160x160o.878f826edc33.jpeg
+"Vallejo Pons, Francisco ",39,Spain,1982,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/6f2e86b0-c003-11e8-8756-f3b2f11d25b8.dbe31b30.160x160o.4cb143611fd5.jpeg
+"Alekseenko, Kirill ",40,Russia,1997,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/79f30560-9db3-11e9-81d2-63a309602911.36ceb842.160x160o.6b521e2d7f42.jpeg
+"Adams, Michael ",41,England,1971,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/64e691f8-c0cf-11e8-ae7a-a378c78fb42f.f9f8f7b1.160x160o.ad04e582eec2.jpeg
+"Matlakov, Maxim ",42,Russia,1991,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/bcaf0fb2-c0d6-11e8-8f18-d5f0ac9148ea.ac6f0184.160x160o.fec3005cda43.jpeg
+"Jakovenko, Dmitry ",43,Russia,1983,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/9945b5ae-bfea-11e8-9d69-b30ff23e6268.7f1b1a67.160x160o.e914467e0e28.jpeg
+"Sadler, Matthew D ",44,England,1974,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/6ffc35d0-c001-11e8-9151-f5a0921c3df6.bfdb9898.160x160o.7770a1703816.jpeg
+"Almasi, Zoltan ",45,Hungary,1976,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/49e41276-c0a3-11e8-b5ed-dd6c82b52949.c004bc0d.160x160o.a9cd157d4b18.jpeg
+"Maghsoodloo, Parham ",46,Iran,2000,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/4aa6aaa0-c0d7-11e8-b435-959f63638c98.1245bb2a.160x160o.5d88fe417e39.jpeg
+"Dubov, Daniil ",47,Russia,1996,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/90cf096e-c00f-11e8-84ac-472e7fe20ac5.39c4eabf.160x160o.4f2d517a8458.jpeg
+"Ivanchuk, Vassily ",48,Ukraine,1969,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/f778e93c-c0d7-11e8-b9ed-1d9f7cc4e367.179872ad.160x160o.347084ff771a.jpeg
+"Li, Chao b ",49,China,1989,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/43feb0b2-bfec-11e8-a89c-a98362953c5c.44a97d68.160x160o.bd9255e4bc22.jpeg
+"Sargissian, Gabriel ",50,Armenia,1983,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/802f4e64-bffd-11e8-b6f0-d73c3ed6e739.33a40ed7.160x160o.478b20196eba.jpeg
+"Cheparinov, Ivan ",51,Georgia,1986,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/6239e768-bfe7-11e8-9613-df1fb3fb9db2.6cd0e66a.160x160o.a4791f177420.jpeg
+"Anton Guijarro, David ",52,Spain,1995,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/300b9962-c0aa-11e8-bcf6-4fb9aa396ec5.5acb716b.160x160o.3fe7f32b9ce1.jpeg
+"Rausis, Igors ",53,Czech Republic,1961,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/4357c69e-c0a5-11e8-92f9-0f8fb59030df.5b7ee1a9.160x160o.920a5a3e64f0.jpeg
+"Shirov, Alexei ",54,Spain,1972,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/2d92a244-c0ae-11e8-b67c-e56868609cac.9fabbb78.160x160o.54900fe82807.jpeg
+"Gelfand, Boris ",55,Israel,1968,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/9a2b6896-c0a9-11e8-9ac6-ff3ef167f9b2.e2986993.160x160o.0e3758f5bcba.jpeg
+"Grandelius, Nils ",56,Sweden,1993,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/f7f45f9a-c0a5-11e8-ac1c-f1dbc645ba4b.3929e44d.160x160o.18216b18bbc1.jpeg
+"Jones, Gawain C B ",57,England,1987,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/fe385fe8-bfea-11e8-8418-e1daffd07d17.9246b2d5.160x160o.50e1d6e35a40.jpeg
+"Shankland, Sam ",58,United States of America,1991,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/5ca722ec-c0a6-11e8-9747-e70628fdda78.636545ba.160x160o.dfc49c74b881.jpeg
+"Amin, Bassem ",59,Egypt,1988,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/0cb7d3a8-d6a9-11e8-9d71-8de21d0b5007.623cc0ec.160x160o.187743943a3f.jpeg
+"Kamsky, Gata ",60,United States of America,1974,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/6133b20a-c0b3-11e8-bd91-d36509105ba5.5684e31d.160x160o.80f3cc804c3c.jpeg
+"McShane, Luke J ",61,England,1984,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/3586b6a0-c0ab-11e8-863b-cd8523749aef.992efee8.160x160o.0731c0402f0e.jpeg
+"Fedoseev, Vladimir ",62,Russia,1995,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/f2547f64-c0b1-11e8-8e8f-a1eca529f9f7.53dbc567.160x160o.970a374e3edd.jpeg
+"Dreev, Aleksey ",63,Russia,1969,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/0ab89fb2-c0b3-11e8-8fd1-170d1987f687.117760af.160x160o.2f1e9abdb753.jpeg
+"Howell, David W L ",64,England,1990,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/2cfd1568-d6ab-11e8-a25e-69a6ec632279.bb709464.160x160o.8df4d03d316a.jpeg
+"Predke, Alexandr ",65,Russia,1994,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/4fe1281a-a9df-11e8-8450-4ff4fd58ed06.bb91bfe2.160x160o.78194853931a.jpeg
+"Kryvoruchko, Yuriy ",66,Ukraine,1986,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/23b78380-bfea-11e8-911e-91c7582ea741.0aa0c21c.160x160o.9a667eeeb059.jpeg
+"Areshchenko, Alexander ",67,Ukraine,1986,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/99c1be98-c0a2-11e8-ada3-43c3a6105fce.50988401.160x160o.0f09ef6edf59.jpeg
+"Salem, A.R. Saleh ",69,United Arab Emirates,1993,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/3b166736-c0d4-11e8-abec-b5d5a3306637.ea58e683.160x160o.39501c3ebadd.jpeg
+"Wang, Yue ",70,China,1987,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/6307485a-c269-11e8-bc1a-d30a0c4ae6b3.6a399f11.160x160o.07aaa1820ca8.jpeg
+"Robson, Ray ",72,United States of America,1994,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/abb15ce8-c0ad-11e8-aca2-6fb01f1babad.156e901d.160x160o.aea816d7486e.jpeg
+"Ragger, Markus ",73,Austria,1988,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/e077bb92-c0a9-11e8-80d9-99666b6950bd.c9bb70b2.160x160o.086f322e63b8.jpeg
+"Leko, Peter ",74,Hungary,1979,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/921dcc62-c0b2-11e8-9e88-d7542d867008.4f047e5c.160x160o.63f1490079bb.jpeg
+"Ni, Hua ",75,China,1983,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/a0d81f92-bd7d-11e8-a4b8-7b8a981ac0b4.e62aa268.160x160o.c94c9ccea9e5.jpeg
+"Bacrot, Etienne ",76,France,1983,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/3697a3e2-bd81-11e8-9e9b-193a342ed457.44d2d1e9.160x160o.129df84077e0.jpeg
+"Melkumyan, Hrant ",77,Armenia,1989,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/bfa65f34-bd81-11e8-9ae7-f3264e389a8a.75bb8ed3.160x160o.8c244513efbe.jpeg
+"Nisipeanu, Liviu-Dieter ",78,Germany,1976,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/f36d9052-bd82-11e8-bf78-4fcf6f68f91b.b52a2459.160x160o.1d91304953d5.png
+"Malakhov, Vladimir ",79,Russia,1980,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/94e0b0ae-bd83-11e8-b289-939e045bcef4.5587868f.160x160o.c98de28d3f14.jpeg
+"Korobov, Anton ",80,Ukraine,1985,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/1cfb311c-bd84-11e8-b3e5-19f28d9a0935.1e9316f1.160x160o.fa1dfb57d9ec.jpeg
+"Kuzubov, Yuriy ",81,Ukraine,1990,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/89a0a0ea-bd84-11e8-80f9-0fe02746e298.adc92a1e.160x160o.b0148d8e4391.jpeg
+"Guseinov, Gadir ",82,Azerbaijan,1986,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/f41f46a6-bd84-11e8-9198-3950eb41dde1.2fbcd730.160x160o.7d4b3f77d4b6.jpeg
+"Sjugirov, Sanan ",83,Russia,1993,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/96f390f8-bd85-11e8-af50-737eeb0b453f.8eef83f3.160x160o.2805e0ecdcb3.jpeg
+"Hou, Yifan ",84,China,1994,Female,Grandmaster Woman Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/ed4b441e-bd85-11e8-bd42-a7dac06b8fe1.3c7f0f91.160x160o.19ba58afb958.jpeg
+"Kasimdzhanov, Rustam ",85,Uzbekistan,1979,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/68d65b32-bd86-11e8-bf23-93af9265b356.dd5c39ad.160x160o.2b6c34543600.jpeg
+"Sarana, Alexey ",86,Russia,2000,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/f03175b2-bd86-11e8-96dc-07a8d87f88c2.b93ac1d5.160x160o.b8660969d05f.png
+"Abasov, Nijat ",87,Azerbaijan,1995,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/55803250-bd87-11e8-af87-8f213656c199.59748ef0.160x160o.2157c5dfe5a4.jpeg
+"Eljanov, Pavel ",88,Ukraine,1983,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/adc879b8-bd87-11e8-92dc-b5e464a3a88c.415b6a84.160x160o.6fb4bdf80e58.jpeg
+"Inarkiev, Ernesto ",89,Russia,1985,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/45528db4-bd88-11e8-88ea-3d3bcf137537.5d4f30b0.160x160o.02597e72004f.jpeg
+"Kovalev, Vladislav ",90,Belarus,1994,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/9afa3ffa-bd88-11e8-b4e8-573245f445b8.f3670fe8.160x160o.203c1427c12f.jpeg
+"Najer, Evgeniy ",91,Russia,1977,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/ff2c0c88-bd88-11e8-a1b5-b3f409e40ffe.901b4247.160x160o.d7a30ea11fde.jpeg
+"Sevian, Samuel ",92,United States of America,2000,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/52bd80de-bd89-11e8-b840-63c9dcf47e94.3caac844.160x160o.831dd7bd8126.jpeg
+"Nyzhnyk, Illya ",93,Ukraine,1996,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/a561d272-bd89-11e8-813b-5f736b3de20a.04577edf.160x160o.a907b32e51ae.jpeg
+"Mamedov, Rauf ",95,Azerbaijan,1988,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/e1ccd82e-bd89-11e8-9b24-93944f37d265.ae52a010.160x160o.b3b2050ea172.png
+"Morozevich, Alexander ",96,Russia,1977,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/b50bcc40-bfe2-11e8-9bea-612ca11870a2.1ccd374f.160x160o.c334ee3c9d29.jpeg
+"Swiercz, Dariusz ",97,United States of America,1994,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/fa41c01c-bfe2-11e8-b306-c1f3e898101c.133253d2.160x160o.25c722f57ebe.jpeg
+"Berkes, Ferenc ",101,Hungary,1985,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/f27334be-bfe3-11e8-aff0-3b9f13a3e222.f8501ef8.160x160o.ad9af03ca97c.jpeg
+"Sasikiran, Krishnan ",102,India,1981,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/3d268b50-bfe4-11e8-ae5d-2b536b948399.abe7b9ea.160x160o.581f2a018287.jpeg
+"Lagarde, Maxime ",103,France,1994,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/98acc98a-bfe4-11e8-9f73-53fe46f090cb.105dac5d.160x160o.990fbd040edf.jpeg
+"Adhiban, B. ",104,India,1992,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/ed891e68-bfe4-11e8-99fb-d95de5663fbf.fde412d4.160x160o.bfbd84edeb66.jpeg
+"Edouard, Romain ",105,France,1990,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/7c5b8cb6-bfe5-11e8-a1be-23ba32ed5432.5aab5555.160x160o.e3c49e2f3e1d.jpeg
+"Saric, Ivan ",106,Croatia,1990,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/e877d33c-bfe5-11e8-8161-9d07c186ea35.536f3950.160x160o.22a6c8eb822d.jpeg
+"Cori, Jorge ",107,Peru,1995,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/4648b026-bfe6-11e8-b1d6-07f0206cd42e.90dfcb37.160x160o.30883494885d.jpeg
+"Rublevsky, Sergei ",108,Russia,1974,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/97c01a5c-bfe6-11e8-b8a6-79a60ce073f3.95cdbf89.160x160o.049d2a3b4084.jpeg
+"Oparin, Grigoriy ",109,Russia,1997,Male,Grandmaster,https://images.chesscomfiles.com/uploads/v1/master_player/e88fff56-bfe6-11e8-a9c9-21b8394bc381.a7b93d30.160x160o.5d76e3341cfc.jpeg
