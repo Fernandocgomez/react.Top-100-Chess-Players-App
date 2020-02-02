@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
 
-    skip_before_action :authenticated, only: [:index, :show]
+    skip_before_action :check_authentication, only: [:index, :show]
 
     def index
         comments = Comment.all
@@ -27,7 +27,7 @@ class CommentsController < ApplicationController
     private
 
     def comment_params
-        params.require(:comment).permit(:user_id, :chessplayer_id, :content)
+        params.permit(:user_id, :chessplayer_id, :content)
     end
 
 end
