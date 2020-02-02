@@ -130,6 +130,13 @@
   margin: 20px;
   padding: 30px 20px;
   border: rgba(116, 113, 113, 0.589) solid .5px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+h5{
+  margin: none;
+  padding: none;
 }
 
 .players-card:hover {
