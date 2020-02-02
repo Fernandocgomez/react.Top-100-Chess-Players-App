@@ -27,7 +27,10 @@ class Players extends React.Component {
 // flipCard = () => {
 //   console.log('are we hovering?')
 // };
-  
+
+redirectToProfile = (object) => {
+  this.props.history.history.push('/profile', object)
+}
 
 
 renderCards = (players) => {
@@ -35,7 +38,7 @@ renderCards = (players) => {
     return(
  
       // console.log(player)
-        <div className="players-card">
+        <div className="players-card" onClick={ () => {this.redirectToProfile(player)}}>
                 <div className="players-img-container" >
                   <img className="players-img" src={player.img}></img>
                 </div>
@@ -67,8 +70,8 @@ searchPlayer = (player) => {
 
     const chessPlayers = this.state.players
     const filteredPlayers = this.state.filteredPlayers
-    // console.log(chessPlayers)
-
+    // console.log(this.props.history.history.push('/profile', object))
+    
 
     return (
       <div className="players-container">

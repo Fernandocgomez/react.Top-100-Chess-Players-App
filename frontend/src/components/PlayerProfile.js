@@ -9,8 +9,9 @@ class PlayerProfile extends React.Component {
         };
     }
 
-    render() {
 
+    render() {
+        console.log(this)
         return (
             <div className='profile-container'>
 
