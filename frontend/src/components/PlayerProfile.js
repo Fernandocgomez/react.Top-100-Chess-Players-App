@@ -1,17 +1,49 @@
 import React from 'react';
+import { Line } from 'react-chartjs-2';
 
 class PlayerProfile extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
 
+            chartData: {
+                labels: [],
+                datasets: [
+                    {
+                      label: 'Statistics Over Time', 
+                      data: [
+                          
+                      ],
+                      backgroundColor: [
+                        'rgba(54, 162, 235, 0.2)',
+                      ],
+                      borderColor: [
+                          'rgba(54, 162, 235, 1)'
+                          
+                      ],
+                      
+                      borderWidth: 2  
+                    }
+                ]
+            }
+
 
         };
     }
 
+    componentDidMount() {
+        let period = []
+        const statistics = this.props.history.history.location.state.statistics
+        statistics.forEach((stast) => {
+            
+        })
+    }
+
 
     render() {
-        console.log(this)
+        console.log(this.props.history.history.location.state.statistics)
+        console.log(this.state.chartData.labels)
+        console.log(this.state.chartData.datasets[0].data)
         return (
             <div className='profile-container'>
 
@@ -39,6 +71,12 @@ class PlayerProfile extends React.Component {
 
                 <div className='profile-box2'>
                     {/* Render chart here */}
+                    <Line 
+                    data={this.state.chartData}
+                    width={200}
+                    height={100}
+                    options={{ maintainAspectRatio: true}}
+                />
                 </div>
 
                 <div className='profile-box3'>
@@ -51,6 +89,7 @@ class PlayerProfile extends React.Component {
 
                         <div className='overflow'>
 
+                             {/* Render comments here here */}
 
                             <div>
                             <p className='profile-p-username'>Username:</p>
