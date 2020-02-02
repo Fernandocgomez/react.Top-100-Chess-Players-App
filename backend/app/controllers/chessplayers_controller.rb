@@ -4,7 +4,8 @@ class ChessplayersController < ApplicationController
 
     def index 
         chessplayers = Chessplayer.all
-        render json: chessplayers, include: ['comments', 'statistics']   
+        render :json => chessplayers.to_json(:include => [:comments, :statistics])
+        # render json: chessplayers, include: ['comments', 'statistics']   
     end
 
     def show 
