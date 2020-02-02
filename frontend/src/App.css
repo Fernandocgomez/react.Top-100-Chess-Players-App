@@ -165,7 +165,7 @@
   padding-left: 5px;
 }
 
-.players-input:focus, .players-btn:focus, .profile-btn, .profile-input {
+.players-input:focus, .players-btn:focus, .profile-btn:focus, .profile-input:focus, .signup-input:focus, .signup-redirect-box:focus {
   outline: none;
 }
 
@@ -314,4 +314,85 @@
 .profile-p-span {
   font-weight: 500;
   font-size: 16px;
+}
+
+/* signup  */
+.signup-container {
+  min-height: calc(91vh - 70px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 40%;
+}
+
+.signup-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-width: .5px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px 30px;
+  border: rgba(116, 113, 113, 0.589) solid .5px;
+  margin: 50px 50px;
+}
+
+.signup-img-box {
+  display: flex;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.signup-redirect-box {
+  display: flex;
+}
+
+.signup-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.signup-label, .signup-btn, .signup-input {
+  display: flex;
+  margin: 10px 10px;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.signup-input {
+  width: 20rem;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: rgba(116, 113, 113, 0.589) solid 1px;
+  font-weight: 500;
+}
+
+.signup-btn {
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* background-color: rgb(69,157,84); */
+  color: #616161;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.signup-redirect {
+  font-size: 14px;
+  color: rgb(110, 211, 236);
+  text-decoration: none;
+  font-weight: 500;
 }
