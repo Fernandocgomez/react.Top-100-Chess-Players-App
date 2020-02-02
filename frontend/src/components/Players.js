@@ -79,7 +79,6 @@ searchPlayer = (player) => {
 
   render() {
 
-
     const chessPlayers = this.state.players
     const filteredPlayers = this.state.filteredPlayers
     // console.log(this.props.history.history.push('/profile', object))
