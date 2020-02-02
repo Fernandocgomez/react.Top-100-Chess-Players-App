@@ -52,9 +52,21 @@ renderCards = (players) => {
   })
 };
 
-// renderFilteredCards = () => {
-//   return 
-// } 
+renderFilteredCards = (filteredPlayers) => {
+  return filteredPlayers.map( filteredPlayer => {
+    return (
+      <div className="players-card" onClick={ () => {this.redirectToProfile(filteredPlayer)}}>
+              <div className="players-img-container" >
+                <img className="players-img" src={filteredPlayer.img}></img>
+              </div>
+            <div className="players-text-container">
+                <h5 className="players-h2">Name:{filteredPlayer.name.substring(0,15)}</h5>
+                <p className="players-p">World Rank: {filteredPlayer.worldrank} </p>
+            </div>
+  </div> 
+    )
+  })
+} 
 
 searchPlayer = (player) => {
   let filteredArray = this.state.players.filter(p => p.name.toLowerCase().includes(player.toLowerCase()))
@@ -78,8 +90,8 @@ searchPlayer = (player) => {
 
         <div className="players-search-container">
 
-          <input className="players-input" onChange={(e) => this.searchPlayer(e.target.value)}></input>
-          <button className="players-btn">Search</button> 
+          <input className="players-input"></input>
+          <button className="players-btn" onClick={(e) => this.searchPlayer(e.target.value)}>Search</button> 
 
         </div>
 
@@ -94,7 +106,7 @@ searchPlayer = (player) => {
               <p className="players-p">World Rank: 1</p>
             </div>
           </div> */}
-          { this.state.players ? (<> {this.renderCards(chessPlayers)} </>) : <div> " Sorry we don't have anything!" </div> }  {/* i can probably use this to render the filtered part but how? */}
+          { this.state.filteredPlayers ? (<> {this.renderCards(chessPlayers)} </>) : (<>  {this.renderFilteredCards(filteredPlayers)} </>) }  {/* i can probably use this to render the filtered part but how? */}
         </div>
 
         {/* <div onClick={() => this.renderCards()}>
