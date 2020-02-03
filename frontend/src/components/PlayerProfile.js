@@ -25,7 +25,7 @@ class PlayerProfile extends React.Component {
                         borderWidth: 2
                     }
                 ]
-            }, 
+            },
             comments: []
 
 
@@ -57,23 +57,23 @@ class PlayerProfile extends React.Component {
                         borderWidth: 2
                     }
                 ]
-            }, 
+            },
             comments: this.props.history.history.location.state.comments
         }))
 
     }
 
     renderComments = () => {
-        if (this.state.comments.length == 0){
-            return(
+        if (this.state.comments.length == 0) {
+            return (
                 <div>
                     <p>No comments have been made yet...</p>
                 </div>
             )
-        }else{
+        } else {
             return this.state.comments.map(comment => {
                 return (
-          
+
                     <div>
                         <p className='profile-p-username'>{comment.username}</p>
                         <p className='profile-p-content'>{comment.content}</p>
@@ -81,12 +81,43 @@ class PlayerProfile extends React.Component {
                 )
             })
         }
-        
+
     }
+
+    handelChange = (e) => {
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+    }
+
+    makeComment = (e) => {
+        e.preventDefault()
+        fetch('http://localhost:3000/comments', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                user_id: localStorage.userId,
+                chessplayer_id: this.props.history.history.location.state.id,
+                content: this.state.content,
+                username: localStorage.userName,
+            })
+        })
+            .then(res => res.json())
+            .then(comment => this.setState({
+                comments: [...this.state.comments, comment.comment]
+            }))
+        e.target.reset()
+        this.messagesEnd.scrollIntoView({ behavior: "smooth" })
+    }
+
+
 
 
     render() {
         console.log(this.props.history.history.location.state)
+        console.log(this.props.hideLoginBtns)
 
 
 
@@ -116,7 +147,6 @@ class PlayerProfile extends React.Component {
                 </div>
 
                 <div className='profile-box2'>
-                    {/* Render chart here */}
                     <Line
                         data={this.state.chartData}
                         width={200}
@@ -138,17 +168,28 @@ class PlayerProfile extends React.Component {
                             {this.renderComments()}
 
 
+                            <div ref={(el) => { this.messagesEnd = el; }} style={{ paddingBottom: '50px' }}>
+
+                            </div>
                         </div>
 
-
-
-
                     </div>
 
-                    <div className='profile-form-box'>
-                        <input className='profile-input'></input>
-                        <button className='profile-btn'>Comment</button>
-                    </div>
+
+                    <form className='profile-form-box' onSubmit={(e) => this.makeComment(e)}>
+                        <input className='profile-input' onChange={(e) => this.handelChange(e)} type="text" placeholder="type comment..." name='content'></input>
+                        {this.props.hideLoginBtns ? 
+                        (<>
+                            <button className='profile-btn' type='submit'>Comment</button>
+                        </>) : 
+                        
+                        (<>
+                        
+                            <button className='profile-btn' type='submit' disabled style={{backgroundColor: 'red', color: 'white'}}>Comment</button>
+                        </>) }
+                    </form>
+
+
 
                 </div>
 

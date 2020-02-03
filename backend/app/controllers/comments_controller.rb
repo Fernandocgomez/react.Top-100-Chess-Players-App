@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
 
-    skip_before_action :check_authentication, only: [:index, :show]
+    skip_before_action :check_authentication, only: [:index, :show, :create]
 
     def index
         comments = Comment.all
@@ -18,6 +18,7 @@ class CommentsController < ApplicationController
 
     def create
         comment = Comment.create(comment_params)
+        render json: {comment: CommentSerializer.new(comment)}
     end
 
     def destroy
@@ -27,7 +28,7 @@ class CommentsController < ApplicationController
     private
 
     def comment_params
-        params.permit(:user_id, :chessplayer_id, :content)
+        params.permit(:user_id, :chessplayer_id, :content, :username)
     end
 
 end

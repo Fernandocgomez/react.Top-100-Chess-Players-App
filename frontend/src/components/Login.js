@@ -37,7 +37,7 @@ class Login extends React.Component {
           localStorage.setItem('userName', user.user.username)
         }
         if(localStorage.token === user.token){
-          // this.props.hideLoginBtns()
+          this.props.hideLoginBtns()
           this.props.history.history.push('/')
         }else{
           alert('Password or email is invalid')
