@@ -95,6 +95,7 @@ class PlayerProfile extends React.Component {
         fetch('http://localhost:3000/comments', {
             method: 'POST',
             headers: {
+                'Authorization': `Bearer ${localStorage.token}`,
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
