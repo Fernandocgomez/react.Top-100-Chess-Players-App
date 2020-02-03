@@ -3,42 +3,43 @@ import React from 'react';
 
 class Players extends React.Component {
   constructor(props) {
-  super(props);
-  this.state = {
+    super(props);
+    this.state = {
 
-    players: [],
-    isFlipped: false,
-    filteredPlayers: []
+      players: [],
+      isFlipped: false,
+      filteredPlayers: [],
+      searchBarUsed: false
 
-  };
-}
+    };
+  }
 
-  componentDidMount(){
+  componentDidMount() {
     fetch('http://localhost:3000/chessplayers')
-    .then(resp => resp.json())
-    .then( players => {
-      this.setState({
-        players: players
+      .then(resp => resp.json())
+      .then(players => {
+        this.setState({
+          players: players
+        }) 
       })
-    })
   };
 
-  
-// flipCard = () => {
-//   console.log('are we hovering?')
-// };
 
-redirectToProfile = (object) => {
-  this.props.history.history.push('/profile', object)
-}
+  // flipCard = () => {
+  //   console.log('are we hovering?')
+  // };
+
+  redirectToProfile = (object) => {
+    this.props.history.history.push('/profile', object)
+  }
 
 
 renderCards = (players) => {
   return players.map( player => {
     return(
  
-      // console.log(player)
-        <div className="players-card" onClick={ () => {this.redirectToProfile(player)}}>
+      <div className="players-card" onClick={ () => {this.redirectToProfile(player)}} key = {player.id}>
+   {/* {   console.log(player)} */}
                 <div className="players-img-container" >
                   <img className="players-img" src={player.img}></img>
                 </div>
@@ -68,35 +69,56 @@ renderCards = (players) => {
 //   })
 // } 
 
-searchPlayer = (player) => {
-  let filteredArray = this.state.players.filter(p => p.name.toLowerCase().includes(player.toLowerCase()))
+searchPlayer = (e) => {
+  e.preventDefault()
+  // console.log(e.target)
+  const filteredArray = this.state.players.filter(playerName => playerName.name.toLowerCase().includes(this.state.textInput.toLowerCase()))
   this.setState({
-    filteredPlayers: filteredArray
+    filteredPlayers: filteredArray,
+    searchBarUsed: true
   })
-  console.log('we are searching!', filteredArray) // the console log shows filtered array but how to display it??
+  // console.log('we are searching!', filteredArray) 
 }
 
+handelChange = (e) => {
+  this.setState({
+    [e.target.name]: e.target.value
+  })
+}
 
   render() {
 
     const chessPlayers = this.state.players
     const filteredPlayers = this.state.filteredPlayers
     // console.log(this.props.history.history.push('/profile', object))
+
     
     if( this.state.players.length == 0){
-      <div>
-          'we are loading'
+      return (
+      <div className='spinner-container'>
+            <div className='loader'>
+              {/* <img src='https://cdn4.iconfinder.com/data/icons/board-games-1/110/King-512.png' alt='chess piece'></img> */}
+              
+            </div>
+            
+             {/* <h2 style={{justifyContent: 'center'}}>
+                LOADING..
+              </h2> */}
+
       </div>
+      )
     }
+    console.log(this.state)
+
     return (
-      <div className="players-container">
+      <div className="players-container" >
 
-        <div className="players-search-container">
+        <form className="players-search-container" onSubmit={(e) => this.searchPlayer(e)}>
 
-          <input className="players-input"></input>
-          <button className="players-btn" onClick={(e) => this.searchPlayer(e.target.value)}>Search</button> 
+          <input className="players-input"  type='text' placeholder='Search Here' name='textInput' onChange={(e) => this.handelChange(e)} ></input>
+          <button className="players-btn" type='submit'> Search</button>
 
-        </div>
+        </form>
 
         <div className="players-cards-container">
 
@@ -109,17 +131,20 @@ searchPlayer = (player) => {
               <p className="players-p">World Rank: 1</p>
             </div>
           </div> */}
-          { this.state.filteredPlayers ? (<> {this.renderCards(chessPlayers)} </>) : (<> {this.renderFilteredCards(filteredPlayers)}   </>) }  {/* i can probably use this to render the filtered part but how? */}
+
+
+          { this.state.players.length > 0 ? this.state.searchBarUsed ? this.renderCards(filteredPlayers) : this.renderCards(chessPlayers): null }  
+
         </div>
 
         {/* <div onClick={() => this.renderCards()}>
          click here 
         </div> */}
 
-        
-       
-          
-        
+
+
+
+
       </div>
     );
   }

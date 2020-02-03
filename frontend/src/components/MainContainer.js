@@ -15,19 +15,37 @@ import PlayerProfile from './PlayerProfile';
 
 class MainContainer extends React.Component {
   constructor(props) {
-  super(props);
-  this.state = {
+    super(props);
+    this.state = {
+      showLoginBtn: JSON.parse(localStorage.getItem('showLoginBtn')) || false,
 
 
-  };
-}
+    };
+  }
+
+  hideLoginBtns = () => {
+    if (localStorage.token) {
+      this.setState({
+        showLoginBtn: true
+      }, () => {
+        localStorage.setItem('showLoginBtn', JSON.stringify(this.state.showLoginBtn))
+      })
+    }
+  }
+
+  logout = () => {
+    localStorage.clear()
+    this.setState({
+      showLoginBtn: false
+    })
+  }
 
   render() {
-    
-    return (
-        <BrowserRouter>
 
-        <NavBar />
+    return (
+      <BrowserRouter>
+
+        <NavBar showLoginBtnState={this.state.showLoginBtn} logout={this.logout} hideLoginBtns={this.hideLoginBtns}/>
 
         <Switch>
 
@@ -42,12 +60,12 @@ class MainContainer extends React.Component {
           />
 
           <Route exact path='/login' component={(history) => <Login
-            history={history}  
+            history={history} hideLoginBtns={this.hideLoginBtns}
           />}
           />
 
           <Route exact path='/profile' component={(history) => <PlayerProfile
-            history={history}  
+            history={history} hideLoginBtns={this.state.showLoginBtn}
           />}
           />
 

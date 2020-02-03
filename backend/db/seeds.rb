@@ -35,4 +35,6 @@ CSV.foreach(Rails.root.join('lib/tasks/stats.csv'), :encoding => 'windows-1251:u
   end
 end
 
+# test_comment = Comment.create(user_id: 1, chessplayer_id: 1, content: 'test')
+
 puts 'seeded my dude'
