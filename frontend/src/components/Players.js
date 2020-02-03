@@ -100,11 +100,21 @@ handelChange = (e) => {
 
         <div className="players-cards-container">
 
+
+
+
           { this.state.players.length > 0 ? this.state.searchBarUsed ? this.renderCards(filteredPlayers) : this.renderCards(chessPlayers): null }  
 
         </div>
 
-        
+        {/* <div onClick={() => this.renderCards()}>
+         click here 
+        </div> */}
+
+
+
+
+
       </div>
     );
   }
