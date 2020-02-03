@@ -323,6 +323,11 @@ h5{
   font-size: 16px;
 }
 
+.profile-comment-box {
+  width: 59rem;
+
+}
+
 /* signup  */
 .signup-container {
   min-height: calc(91vh - 70px);
