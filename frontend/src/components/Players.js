@@ -77,12 +77,19 @@ class Players extends React.Component {
   }
 
 
+
   render() {
 
     const chessPlayers = this.state.players
     const filteredPlayers = this.state.filteredPlayers
     // console.log(this.props.history.history.push('/profile', object))
 
+    
+    if( this.state.players.length == 0){
+      <div>
+          'we are loading'
+      </div>
+    }
 
     return (
       <div className="players-container">
@@ -105,7 +112,9 @@ class Players extends React.Component {
               <p className="players-p">World Rank: 1</p>
             </div>
           </div> */}
+
           {this.state.filteredPlayers ? (<> {this.renderCards(chessPlayers)} </>) : (<>  {this.renderFilteredCards(filteredPlayers)} </>)}  {/* i can probably use this to render the filtered part but how? */}
+ 
         </div>
 
         {/* <div onClick={() => this.renderCards()}>
