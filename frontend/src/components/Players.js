@@ -52,21 +52,21 @@ renderCards = (players) => {
   })
 };
 
-renderFilteredCards = (filteredPlayers) => {
-  return filteredPlayers.map( filteredPlayer => {
-    return (
-      <div className="players-card" onClick={ () => {this.redirectToProfile(filteredPlayer)}}>
-              <div className="players-img-container" >
-                <img className="players-img" src={filteredPlayer.img}></img>
-              </div>
-            <div className="players-text-container">
-                <h5 className="players-h2">Name:{filteredPlayer.name.substring(0,15)}</h5>
-                <p className="players-p">World Rank: {filteredPlayer.worldrank} </p>
-            </div>
-  </div> 
-    )
-  })
-} 
+// renderFilteredCards = (filteredPlayers) => {
+//   return filteredPlayers.map( filteredPlayer => {
+//     return (
+//       <div className="players-card" onClick={ () => {this.redirectToProfile(filteredPlayer)}}>
+//               <div className="players-img-container" >
+//                 <img className="players-img" src={filteredPlayer.img}></img>
+//               </div>
+//             <div className="players-text-container">
+//                 <h5 className="players-h2">Name:{filteredPlayer.name.substring(0,15)}</h5>
+//                 <p className="players-p">World Rank: {filteredPlayer.worldrank} </p>
+//             </div>
+//   </div> 
+//     )
+//   })
+// } 
 
 searchPlayer = (player) => {
   let filteredArray = this.state.players.filter(p => p.name.toLowerCase().includes(player.toLowerCase()))
@@ -83,7 +83,11 @@ searchPlayer = (player) => {
     const filteredPlayers = this.state.filteredPlayers
     // console.log(this.props.history.history.push('/profile', object))
     
-
+    if( this.state.players.length == 0){
+      <div>
+          'we are loading'
+      </div>
+    }
     return (
       <div className="players-container">
 
@@ -105,7 +109,7 @@ searchPlayer = (player) => {
               <p className="players-p">World Rank: 1</p>
             </div>
           </div> */}
-          { this.state.filteredPlayers ? (<> {this.renderCards(chessPlayers)} </>) : (<>  {this.renderFilteredCards(filteredPlayers)} </>) }  {/* i can probably use this to render the filtered part but how? */}
+          { this.state.filteredPlayers ? (<> {this.renderCards(chessPlayers)} </>) : (<> {this.renderFilteredCards(filteredPlayers)}   </>) }  {/* i can probably use this to render the filtered part but how? */}
         </div>
 
         {/* <div onClick={() => this.renderCards()}>
