@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2020_02_01_010640) do
     t.integer "user_id"
     t.integer "chessplayer_id"
     t.string "content"
+    t.string "username"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
