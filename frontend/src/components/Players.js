@@ -1,7 +1,6 @@
 import React from 'react';
 import { Pie } from 'react-chartjs-2';
 
-
 class Players extends React.Component {
   constructor(props) {
     super(props);
@@ -11,16 +10,6 @@ class Players extends React.Component {
       isFlipped: false,
       filteredPlayers: [],
       searchBarUsed: false, 
-      data: {
-        datasets: [{
-            data: [10, 20, 30]
-        }],
-    
-        // These labels appear in the legend and in the tooltips when hovering different arcs
-        labels: [
-          
-        ]
-    }
 
     };
   }
@@ -42,8 +31,31 @@ class Players extends React.Component {
 
 
   renderCards = (players) => {
+    
     return players.map(player => {
+      let green = []
+    let yello = []
+    let red = []
+    let blue = []
+    player.statistics.forEach((position) => {
+      if(position.position < 10){
+        green.push(position)
+      }
+      if(position.position > 10 && position.position < 20){
+        yello.push(position)
+      }
+      if(position.position > 20 && position.position < 50){
+        red.push(position)
+      }
+      if(position.position > 50 && position.position < 101){
+        blue.push(position)
+      }
+    })
+
+    console.log(green.length, yello.length, red.length, blue.length)
+
       return (
+
 
         <div className="players-card" onClick={() => { this.redirectToProfile(player) }} key={player.id} >
 
@@ -56,20 +68,31 @@ class Players extends React.Component {
           <div className='hidden-content'>
 
             
-            <div className='pie'>
+            <div className='pie' style={{height: '250px', width: '250px'}}>
 
           <Pie
-                  data={this.state.data}
+                  data= {{
+                    datasets: [{
+                      data: [green.length, yello.length, red.length, blue.length],
+                      backgroundColor: [
+                      '#168E0F',
+                      '#FFF95B',
+                      '#BA3030', 
+                      '#54A2DD'
+
+                      ]
+                    }]
+                  }}
                   width={600}
                   height={400}
-                  options={{ maintainAspectRatio: true }}
-                  style={{height: '150px', width: '300px'}}
-                  backgroundColor = 
-                    'rgba(54, 162, 235, 0.2)'
-
+                  options={{ maintainAspectRatio: true, responsive: true, }}
             />
             </div>
-                
+
+            <p><span className='green-position'></span> 1 - 10 Position</p>    
+            <p><span className='yellow-position'></span> 11 - 20 Position</p>    
+            <p><span className='red-position'></span> 21 - 50 Position</p>    
+            <p><span className='blue-position'></span> 51 - 100 Position</p>    
             </div>
 
           <div className="players-text-container">
@@ -138,12 +161,6 @@ class Players extends React.Component {
 
 
         </div>
-
-
-
-
-
-
 
       </div>
     );
