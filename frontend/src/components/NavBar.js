@@ -7,7 +7,7 @@ function NavBar(props) {
 
       <div className='logo'>
 
-        <Link className='logo-text' to='/home'>Logo</Link>
+        <Link className='logo-text' to='/home'>Top 100 Chess Players</Link>
 
 
       </div>

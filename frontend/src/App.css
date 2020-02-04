@@ -183,12 +183,18 @@ h5{
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 10px;
-  /* background-color: rgb(69,157,84); */
-  color: #616161;
+  background-color: #168E0F;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 600;
   width: 10rem;
 }
+
+.players-btn:hover,  .players-cards-container:hover, .profile-btn:hover{
+  cursor: pointer;
+}
+
+  
 
 /*  profile */
 
@@ -200,6 +206,49 @@ h5{
   margin: auto;
   width: 80%;
 }
+
+.hidden-content {
+  display: none;
+}
+
+.players-card:hover .players-img-container {
+  display: none;
+}
+
+.players-card:hover .hidden-content {
+  display: block;
+
+}
+
+.green-position {
+  border: solid #000000 1px;
+  background-color: #168E0F;
+  padding: 0px 20px 0px 20px;
+  margin-right: 5px;
+}
+
+.yellow-position {
+  border: solid #000000 1px;
+  background-color: #FFF95B;
+  padding: 0px 20px 0px 20px;
+  margin-right: 5px;
+}
+
+.red-position {
+  border: solid #000000 1px;
+  background-color: #BA3030;
+  padding: 0px 20px 0px 20px;
+  margin-right: 5px;
+}
+
+.blue-position {
+  border: solid #000000 1px;
+  background-color: #54A2DD;
+  padding: 0px 20px 0px 20px;
+  margin-right: 5px;
+}
+
+
 
 .profile-box1 {
   display: flex;
@@ -311,6 +360,9 @@ h5{
   font-size: 20px;
   border-radius: 20px;
   height: 40px;
+  margin-bottom: 15px;
+  background-color: #168E0F;
+  color: #ffffff;
 }
 
 .profile-p {
@@ -434,3 +486,5 @@ h5{
   justify-content: center;
   flex-direction: column;
 }
+
+

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Line } from 'react-chartjs-2';
+import { Line, Pie } from 'react-chartjs-2';
+import { Link } from 'react-router-dom';
 
 class PlayerProfile extends React.Component {
     constructor(props) {
@@ -186,7 +187,8 @@ class PlayerProfile extends React.Component {
                         
                         (<>
                         
-                            <button className='profile-btn' type='submit' disabled style={{backgroundColor: 'red', color: 'white'}}>Comment</button>
+                            <button className='profile-btn' type='submit' disabled style={{backgroundColor: 'red', color: 'white'}}>Plase Login To Make a Comment</button>
+                            <Link className='signup-redirect' style={{fontSize: '16px'}}to='/login'>You Already Have An Account, Login In!</Link>
                         </>) }
                     </form>
 
