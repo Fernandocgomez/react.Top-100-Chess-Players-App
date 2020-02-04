@@ -190,6 +190,8 @@ h5{
   width: 10rem;
 }
 
+  
+
 /*  profile */
 
 .profile-container {
@@ -200,6 +202,21 @@ h5{
   margin: auto;
   width: 80%;
 }
+
+.hidden-content {
+  display: none;
+}
+
+.players-card:hover .players-img-container {
+  display: none;
+}
+
+.players-card:hover .hidden-content {
+  display: block;
+
+}
+
+
 
 .profile-box1 {
   display: flex;
@@ -434,3 +451,5 @@ h5{
   justify-content: center;
   flex-direction: column;
 }
+
+
