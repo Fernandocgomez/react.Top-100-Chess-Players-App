@@ -53,7 +53,7 @@ class Login extends React.Component {
       <div className='signup-box'>
 
         <div className='signup-img-box'>
-          <img className='signup-img' src='https://i.imgur.com/Ocz3pbJ.png'></img>
+          <img className='signup-img' src='https://i.imgur.com/tY3Plw8.png'></img>
         </div>
 
         <form className='signup-form' onSubmit={(e) => this.Login(e)}>
